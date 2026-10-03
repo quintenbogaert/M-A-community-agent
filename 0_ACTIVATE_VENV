@@ -1,0 +1,5 @@
+# creates a venv
+python3 -m venv .venv
+
+# to activate, run: 
+source .venv/bin/activate
