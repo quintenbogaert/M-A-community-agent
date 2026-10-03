@@ -1,13 +1,10 @@
-from dotenv import load_dotenv
-from openai import OpenAI
+"""
+Main entry point for the AI agent.
+"""
 
-load_dotenv()
+def main():
+    print("AI agent starting...")
 
-client = OpenAI()
 
-response = client.responses.create(
-    model="gpt-6-astra",
-    input="Say hello in one sentence."
-)
-
-print(response.output_text)
+if __name__ == "__main__":
+    main()
