@@ -21,3 +21,8 @@ A local Python AI agent that will progressively be developed from a basic LLM ap
 The agent should only have access to explicitly permitted resources.
 
 Increasing autonomy should not automatically mean increasing permissions.
+
+## Specifications
+
+Model: gpt-6-luna
+(When new features are introduced past what is in agent_spec, these should be added hereunder, evaluate the used model: cost v output)

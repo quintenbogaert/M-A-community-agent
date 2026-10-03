@@ -26,6 +26,7 @@ A task supplied by the user.
 - read data from approved services such as Slack
 - perform approved actions in connected services, such as sending a Slack message
 - use APIs and integrations where explicitly authorized
+- Any features added later on should be added in the README file
 
 ## External accounts and services
 
