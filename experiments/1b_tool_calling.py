@@ -14,9 +14,9 @@ from openai import OpenAI
 # Locate the project root
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-# Load the Python function from 2_tools.py
+# Load the Python function from AA_tools.py
 tool_module = runpy.run_path(
-    str(PROJECT_ROOT / "2_tools.py")
+    str(PROJECT_ROOT / "AA_tools.py")
 )
 
 calculate_equity_value = tool_module[
