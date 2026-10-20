@@ -1,5 +1,10 @@
+
 """
-Non-secret configuration for the agent.
+Configuration settings for our M&A AI agent.
 """
 
-MAX_AGENT_STEPS = 10
+# OpenAI model
+MODEL = "gpt-6-luna"
+
+# Maximum consecutive rounds of tool calls
+MAX_TOOL_ROUNDS = 5
