@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 .DS_Store
 data/*.sqlite3
+Stappen AI Agent.docx
